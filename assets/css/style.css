@@ -1,15 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Poppins&display=swap');
 
 *
@@ -56,9 +44,73 @@ body {
   gap: 2rem;
 }
 
-
 .header 
 {
   font-size: 5rem;
   display: flex;
 }
+
+hr 
+{
+    border-top: 4px solid #ffffff;
+    border-radius: 10px;
+}
+
+
+.container 
+{
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.left 
+{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-image
+ {
+  height: 50vh;
+  width:95%;
+}
+
+.right 
+{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-image 
+{
+  height: 50vh;
+  width: 100%;
+}
+
+.quote 
+{
+  display: flex;
+  padding: 1.5rem;
+  border-bottom: 0.1px solid #F5F5F5;
+}
+
+.about {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 250;
+    color: gray;
+  }
+
+.content 
+{
+  display: flex;
+  font-size: 2.5rem;
+  justify-content: flex-start;
+  margin: 0px;
+}
+
+
+
